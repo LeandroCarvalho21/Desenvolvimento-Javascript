@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site com CSS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(3, 55, 55);
+            /* Cor de fundo */
+            color: aliceblue;
+
+        }
+
+        h1 {
+            color: rgb(255, 255, 255);
+            font-size: 50px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+
+        p {
+            font-size: 20px;
+            /*tamanho da fonte*/
+        }
+
+        .titulo-destaque {
+            background-color: yellow;
+            color: black;
+        }
+
+        div {
+            background-color: rgb(32, 106, 106);
+            width: 50%;
+            height: 50%;
+            border: 4px solid black;
+            border-bottom: 2px solid red;
+            border-radius: 25px;
+            box-shadow: 0px 0px 20px yellow;
+            margin-top: 50px;
+            padding: 50px;
+        }
+
+        h2{
+            text-align: center;
+            margin: 30px 0px 30px 0px;
+        }
+
+        div p {
+            color: rgb(255, 255, 0);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Bem vindo ao CSS 😁</h1>
+
+
+    </header>
+
+    <main>
+
+        <h2>Subtitulo Centralizado</h2>
+        <p class="titulo-destaque">Este paragrafo tem fundo amarelo por class</p>
+        <p>Este paragrafo é comum</p>
+        <button>Cliqur aqui /button></button>
+        <div>
+            <p>Div com margem e Padding</p>
+        </div>
+
+    </main>
+
+    <footer></footer>
+</body>
+
+</html>

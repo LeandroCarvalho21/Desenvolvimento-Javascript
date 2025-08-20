@@ -24,3 +24,17 @@ function criarTitulo(){
 
     titulo.appendChild(novoTitulo)
 }
+
+
+
+function addFruta(){
+
+    let novaLi = document.createElement("li")
+
+    novaLi.textContent = prompt("Digite o nome da fruta")
+
+    let fruta = document.getElementById("fruta")
+
+    fruta.appendChild(novaLi)
+
+}

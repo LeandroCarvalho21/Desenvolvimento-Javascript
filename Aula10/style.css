@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container {
+    box-shadow: 0px 0px 8px rgb(124, 124, 124);
+    border-radius: 4px;
+    margin: 16px;
+    padding: 40px 4px;
+    text-align: center;
+    border: 2px solid rgba(255, 0, 0, 0.165);
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+h1 {
+    margin: 60px 0px;
+    text-align: center;
+
+}
+
+h2 {
+    margin: 25px;
+}
+
+.divs-card {
+    background-color: rgba(224, 127, 0, 0.504);
+    margin: 8px;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px black;
+}
+
+Button {
+    padding: 8px 40px;
+    margin: 40px 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s ease;
+
+
+}
+
+button:hover {
+    box-shadow: 0px 0px 4px rgb(0, 0, 0);
+    background-color: rgb(212, 140, 6);
+    transform: scale(1.02);
+}
+
+.google {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+a{
+    background-color: rgba(127, 255, 212, 0.388);
+    padding: 10px 40px;
+    border-radius: 8px;
+    border: none;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    box-shadow: 0px 0px 3px black;
+    
+}
+
+.teste{
+    margin: 20px auto 20px auto;
+    display: flex;
+    max-width: 145px;
+    justify-content: center;
+  
+}

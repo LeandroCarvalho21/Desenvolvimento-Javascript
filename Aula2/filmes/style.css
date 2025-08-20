@@ -1,0 +1,81 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #034159;
+  /*Cor do fundo  */
+  font-family: Arial, Helvetica, sans-serif;
+  /*Fonte*/
+  color: azure;
+  /*Cor do texto */
+  
+}
+
+
+.listaNaoOrdenada {
+  background-color: #02735E;/*Cor do fundo*/
+  padding: 20px; /*margem interna*/
+  border-radius: 15px; /*borda arredondada*/
+  border: 1px solid #038C3E; /*espessura da borda, fomato e cor*/
+  box-shadow: 0px 0px 10px #025951; /*aplicar sombras a div ou texto*/
+  margin: 20px;/*margem na parte externa da div*/
+
+
+}
+
+.listaOrdenada {
+  background-color: #02735E;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid #038C3E;
+  box-shadow: 0px 0px 10px #025951;
+  margin: 20px;
+}
+
+header{
+  background-color: white;
+  color: #333333;
+  padding: 20px;
+  margin: 16px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.subtitulo{
+  font-size: 16px;
+  font-style: italic;
+  margin-top: 16px;
+  border-bottom: 2px double #0CF25D;
+}
+
+.sobreMim{
+  padding: 16px;
+  font-size: 14px;
+}
+
+footer{
+  text-align: center; /*Centraliza o texto*/
+  font-size: 14px; /*Tamanho da fonte*/
+  color: blanchedalmond; /*Cor da fonte*/
+  margin-top: 40px; /*Margem na parte superior do Footer*/
+
+}
+
+h2{
+  border-bottom: 2px solid #333333;
+  padding-bottom: 2px;
+  text-align: center;
+  margin: 16px;
+}
+
+h3{
+  margin: 10px;
+}
+
+li{
+  margin: 10px;
+}
+
