@@ -48,9 +48,9 @@ function alteraCorSite() {
 function criarComClasse() {
 
     let novoElemento = document.createElement("div")
-    
+
     novoElemento.textContent = " Este elemento tem a classes destaque"
-    
+
     novoElemento.classList.add("destaque")
 
     document.getElementById("area3").appendChild(novoElemento)
@@ -67,5 +67,26 @@ function criarTexto() {
 
     document.getElementById("area3").appendChild(novoTexto)
 
+
+}
+
+
+function criarCard() {
+    //cria a div
+    let card = document.createElement("div")
+
+    //inseri o HTML completo na div
+    card.innerHTML = `
+    <h3>Card do usuario </h3>
+    <p>Nome: João Silva</p>
+    <p>Idade: 25 anos </p>
+    <button>Ver perfil </button>
+    
+    `
+    document.getElementById("area4").appendChild(card)
+}
+
+function apagarTudo() {
+    document.getElementById("area4").innerHTML = ""
 
 }
