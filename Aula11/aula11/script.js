@@ -90,3 +90,28 @@ function apagarTudo() {
     document.getElementById("area4").innerHTML = ""
 
 }
+
+
+
+function removeElemento2(){
+
+//Para remover um elemento com o removeChild
+
+//precisa selecionar o elemento pai 
+let divPrincipal = document.getElementById("itensRemover")
+
+//precisa selecionar o elemento filho que sera removido
+let elementoRemover = document.getElementById("item1")
+
+divPrincipal.removeChild(elementoRemover)
+
+}
+
+
+function removeElemento3(){
+    let divPrincipal = document.getElementById("itensRemover")
+
+    let elementoRemover = document.getElementById("item2")
+
+    divPrincipal.removeChild(elementoRemover)
+}
