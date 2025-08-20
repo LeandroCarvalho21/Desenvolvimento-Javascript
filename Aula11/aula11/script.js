@@ -45,3 +45,27 @@ function alteraCorSite() {
 }
 
 
+function criarComClasse() {
+
+    let novoElemento = document.createElement("div")
+    
+    novoElemento.textContent = " Este elemento tem a classes destaque"
+    
+    novoElemento.classList.add("destaque")
+
+    document.getElementById("area3").appendChild(novoElemento)
+
+
+}
+
+
+function criarTexto() {
+
+    let novoTexto = document.createElement("p")
+
+    novoTexto.textContent = "Se você não está errando, não está aprendendo. Errar faz parte do processo de crescimento e desenvolvimento como desenvolvedor"
+
+    document.getElementById("area3").appendChild(novoTexto)
+
+
+}
