@@ -5,9 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .fundo-preto {
+            background-color: #000;
+            color: #fff;
+        }
+
+        .destaque {
+            background-color: yellow;
+            padding: 10px;
+            border: 1px solid orange;
+            margin: 5px;
+        }
+    </style>
 </head>
 
-<body>
+<body id="app">
 
     <h1>Criando elementos com javascript</h1>
 
@@ -37,6 +50,25 @@
     </div>
 
     <button onclick="addFruta()">Adicionar item a lista</button>
+
+
+    <hr>
+
+
+    <!-- Adicionando classes com javascript -->
+    <h2>3. Adicionando classes</h2>
+    <p>Podemos adicionar classes do CSS aos elementos</p>
+
+    <div id="area3">
+        <p>Elementos com classe aparece aqui</p>
+    </div>
+
+    <button>Criar elementos com classe</button>
+    <button onclick="alteraCorSite()">Alterar com do site</button>
+    <button>Criar texto importante</button>
+
+
+
 
     <script src="script.js"></script>
 </body>

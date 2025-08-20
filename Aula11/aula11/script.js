@@ -15,7 +15,7 @@ function exemploCreateElement() {
 
 
 
-function criarTitulo(){
+function criarTitulo() {
     let novoTitulo = document.createElement("h1")
 
     novoTitulo.textContent = "Novo Titulo"
@@ -27,7 +27,7 @@ function criarTitulo(){
 
 
 
-function addFruta(){
+function addFruta() {
 
     let novaLi = document.createElement("li")
 
@@ -38,3 +38,10 @@ function addFruta(){
     fruta.appendChild(novaLi)
 
 }
+
+function alteraCorSite() {
+    document.getElementById("app").classList.add("fundo-preto")
+
+}
+
+
