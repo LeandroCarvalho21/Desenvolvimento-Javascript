@@ -5,9 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .fundo-preto {
+            background-color: #000;
+            color: #fff;
+        }
+
+        .destaque {
+            background-color: yellow;
+            padding: 10px;
+            border: 1px solid orange;
+            margin: 5px;
+        }
+    </style>
 </head>
 
-<body>
+<body id="app">
 
     <h1>Criando elementos com javascript</h1>
 
@@ -37,6 +50,62 @@
     </div>
 
     <button onclick="addFruta()">Adicionar item a lista</button>
+
+
+    <hr>
+
+
+    <!-- Adicionando classes com javascript -->
+    <h2>3. Adicionando classes</h2>
+    <p>Podemos adicionar classes do CSS aos elementos</p>
+
+    <div id="area3">
+        <p>Elementos com classe aparece aqui</p>
+
+
+    </div>
+
+    <button onclick="criarComClasse()">Criar elementos com classe</button>
+    <button onclick="alteraCorSite()">Alterar com do site</button>
+    <button onclick="criarTexto()">Criar texto importante</button>
+
+    <hr>
+
+
+    <h2>4. inner HTML</h2>
+    <p>Com innerHTML podemos inserir HTML completo, não so o texto</p>
+
+
+    <div id="area4">
+        <p>HTML completo aparece aqui</p>
+    </div>
+
+
+    <button onclick="criarCard()"> Criar um card </button>
+    <button>Apagar tudo</button>
+
+
+    <hr>
+
+
+    <h2>5. remove Child</h2>
+
+    <p>O remove Child remove um elemento da pagina </p>
+
+    <div id="itensRemover">
+        <p>Elementos para remover</p>
+        <div>Elementos 1 - Clique aqui para remover</div>
+        <div id="item1">Elementos 2 - Clique aqui para remover</div>
+        <div id="item2">Elementos 3 - Clique aqui para remover</div>
+
+    </div>
+
+    <button onclick="removeElemento2()" >Remover elemento 2</button>
+    <button onclick="removeElemento3()">Remover elemento 3</button>
+
+
+    
+
 
     <script src="script.js"></script>
 </body>
