@@ -1,0 +1,293 @@
+/* reseta o CSS */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+    /* background-color: #B0B7BF; */
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background-color: #0D0D0D;
+    width: 100vw;
+    height: 100px;
+}
+
+
+nav {
+    width: 100vw;
+    background-color: #333;
+    padding: 16px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0px 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li :hover {
+    color: #ACF213;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: white;
+    text-shadow: 0px 0px 2px #ffffffc2, 0px 0px 8px #aaf014;
+
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 36px;
+}
+
+.inicio {
+    width: 100vw;
+    background-image: linear-gradient(to top, #33333300, #333333);
+    /* background-color: #33333331; */
+    /*primeiro valor cima e baixo e segundo valor lados */
+    padding: 50px 20px;
+    text-align: center;
+
+}
+
+.inicio p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #212121;
+    margin-bottom: 30px;
+
+}
+
+.inicio button {
+    background-color: #aaf014;
+    color: #0D0D0D;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.inicio button:hover {
+    background-color: #405e01;
+    color: #fff;
+}
+
+.sobre {
+    width: 100vw;
+    background-color: #B0B7BF;
+    padding: 40px 0px;
+    text-align: center;
+
+}
+
+.sobre p {
+    color: #212121;
+    text-align: center;
+    font-size: 16px;
+    max-width: 800px;
+    margin: 20px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+
+.modulos {
+
+    background-color: #f2f1f1dd;
+    padding: 40px 0px;
+
+}
+
+.modulos-grid {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modulos h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    gap: 20px;
+}
+
+.grid-card {
+    background-color: #b0b7bf3b;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px #212121bd;
+    padding: 20px;
+
+}
+
+.grid-card ul {
+    list-style: none;
+}
+
+.grid-card h3 {
+    color: #00418beb;
+    margin-bottom: 20px;
+
+}
+
+.grid-card li {
+    margin-bottom: 20px;
+
+}
+
+.beneficios {
+    padding: 40px 20px;
+    background-color: white;
+}
+
+.beneficios h2 {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.beneficios-lista {
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    gap: 10px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.beneficio-item {
+    background-color: #b0b7bf3b;
+    border-left: 4px solid #00418beb;
+    padding: 15px;
+
+
+}
+
+.inscricao {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #00418beb;
+    color: white;
+    width: 100vw;
+}
+
+.inscricao p {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.inscricao button {
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+    color: #00418beb;
+    padding: 16px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.inscricao button:hover {
+    color: #aaf014;
+    background-color: #000;
+    box-shadow: 0px 0px 4px #B0B7BF;
+}
+
+
+.preco {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+footer {
+    background-color: #f2f1f1dd;
+    color: #0D0D0D;
+    text-align: center;
+    padding: 20px;
+}
+
+
+@media (max-width: 769px) {
+
+    h1 {
+        font-size: 1.5rem;
+
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px;
+    }
+
+    .inicio h2 {
+        font-size: 1.3rem;
+
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+
+    }
+
+    .modulos {
+        padding: 0px 20px;
+        width: 100vw;
+    }
+
+    .modulos-grid h2 {
+        margin-top: 20px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .beneficios-lista {
+        grid-template-columns: 1fr;
+
+    }
+
+    .sobre {
+        padding: 0px 20px;
+    }
+
+    .sobre h2 {
+        padding-top: 20px;
+    }
+
+    .sobre p {
+        line-height: 1.5;
+    }
+
+    .sobre div {
+        padding-bottom: 30px;
+    }
+
+}

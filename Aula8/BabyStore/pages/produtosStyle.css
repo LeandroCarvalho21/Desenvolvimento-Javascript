@@ -1,0 +1,180 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f5c0f071;
+
+
+}
+
+
+nav {
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+
+
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #000;
+
+}
+
+
+
+nav a:hover {
+    color: #6607F5;
+}
+
+.cabecalho {
+    background-color: #f5c0f041;
+    padding: 16px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+.menu ul {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logoImg {
+    border-radius: 50%;
+    width: 120px;
+
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+img {
+    width: 250px;
+}
+
+
+.inicio {
+    text-align: center;
+    padding: 32px 32px;
+    /* background-color: #f5c0f027; */
+}
+
+.inicio p {
+    margin: 25px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+
+}
+
+
+.produtos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 10px 0px;
+    padding: 8px;
+
+}
+
+.produtos-card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rgba(0, 0, 0, 0.306);
+    padding: 16px 0px;
+    border-radius: 16px;
+    margin: 20px;
+
+}
+
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 20px 0px;
+    background-color: #f5c0f041;
+}
+
+.produtosTexto {
+    margin-top: 20px;
+}
+
+
+.produtosTexto button {
+    padding: 10px 90px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px #3c3c3c41;
+    margin-top: 20px;
+
+}
+
+.produtosTexto button:hover {
+    background-color: #6607f51b;
+
+
+}
+
+.produtos-card img {
+    border-radius: 4px;
+}
+
+
+
+.container{
+    padding: 16px;
+}
+@media (max-width: 769px) {
+
+
+    .produtos {
+        grid-template-columns: 1fr;
+    }
+
+    .produtos-card {
+        margin: 30px 0px;
+    }
+
+    .menu ul {
+        display: block;
+
+    }
+
+    .menu ul li {
+        margin: 10px 0px;
+
+    }
+
+    .inicio h1 {
+        display: block;
+        font-size: 2.2rem;
+    }
+
+    .inicio p {
+        font-size: 12px;
+        padding: 16px;
+    }
+
+}
