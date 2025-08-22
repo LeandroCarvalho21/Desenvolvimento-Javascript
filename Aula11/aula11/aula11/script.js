@@ -15,6 +15,9 @@ function exemploCreateElement() {
 
 
 
+
+
+
 function criarTitulo() {
     let novoTitulo = document.createElement("h1")
 
