@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header></header>
+
+    <h1>Trabalhando com Furmularios e inputs</h1>
+
+    <div class="container" id="background">
+
+
+
+        <div class="input-basic">
+
+            <h2>1 Inputs Básicos</h2>
+
+            <div class="input-nome">
+                <label>Nome: </label>
+                <input type="text" placeholder="Digite seu nome" id="inputNome">
+                <button onclick="mostrarNome()">Mostrar nome</button>
+            </div>
+
+            <div class="input-idade">
+                <label>Idade: </label>
+                <input type="number" max="120" min="1" id="inputIdade" placeholder="Idade">
+                <button onclick="mostraIdade()">Mostrar Idade</button>
+            </div>
+
+            <div class="input-email">
+                <label>Email: </label>
+                <input type="email" max="120" min="1" id="inputEmail" placeholder="Digite seu Email">
+                <button onclick="MostrarEmail()">Mostrar Email</button>
+            </div>
+
+            <div id="resultado1">
+
+                <h4>Resultado:</h4>
+
+                <p>Os resultados aparecerão aqui</p>
+            </div>
+
+        </div>
+
+        <br><br>
+
+        <hr>
+
+
+        <div class="diferentes-input">
+            <h2>2. Diferentes tipos de input</h2>
+
+
+            <div class="dt-nascimento">
+                <label>Data de Nascimento</label>
+                <input type="date" class="i" id="inputData">
+                <button onclick="MostrarData()">Mostrar data</button>
+
+            </div>
+
+            <br><br>
+
+            <div class="cor-favorita">
+                <label>Cor favorita</label>
+                <input type="color" id="inputCor">
+                <button onclick="mostrarCor()">Mostrar cor</button>
+            </div>
+
+            <br><br>
+
+            <div class="termo">
+
+                <label>Aceitar os termos</label>
+                <input type="checkbox" id="inputCheckbox">
+                <button onclick="verificarCheckbox()">Verificar</button>
+
+            </div>
+
+            <hr>
+
+        </div>
+
+        <div class="select-radio">
+            <h2>3. Select (Lista) e Radio Button</h2>
+            <div class="estado-civil">
+                <label>Estado Civil</label>
+                <select>
+                    <option value="">Selecione...</option>
+                    <option value="solteiro">Solteiro</option>
+                    <option value="casado">Casado</option>
+                    <option value="viuvo">Viuvo</option>
+                    <option value="divorciado">Divorciado</option>
+                </select>
+                <button>Mostrar estado</button>
+            </div>
+
+            <br>
+
+            <div class="genero">
+                <label>Gênero</label>
+
+                <input type="radio" name="genero" value="Masculino">
+                <label>Masculino</label>
+
+                <input type="radio" name="genero" value="Feminino">
+                <label>Feminino</label>
+
+                <input type="radio" name="genero" value="Outros">
+                <label>Outros</label>
+
+                <button onclick="pegarGenero()">Mostrar Genero</button>
+            </div>
+
+            <br>
+
+            <div class="comentario">
+                <label>Comentários</label>
+                <br>
+                <textarea maxlength="5"></textarea>
+                <br>
+                <button>Mostrar Comentários</button>
+
+                <div>
+                    <p>Resultado do select, radio e textarea</p>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

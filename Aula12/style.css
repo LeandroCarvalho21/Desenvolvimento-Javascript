@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.container {
+    max-width: 500px;
+    background-color: rgba(245, 245, 220, 0.643);
+    margin: 0px auto;
+    padding: 32px;
+}
+
+.input-nome,
+.input-idade,
+.input-email {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+button,
+input {
+    padding: 5px;
+    margin: 10px 0px;
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    padding: 7px;
+    box-shadow: 0px 0ox 4px #000;
+}
